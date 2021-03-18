@@ -1,0 +1,6 @@
+book_filename: "marconi1964.github.io"
+output_dir: "../marconi1964.github.io/TensorFlowLiteMicro"
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: "Chapter "
