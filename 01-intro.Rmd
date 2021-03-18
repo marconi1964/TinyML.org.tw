@@ -1,21 +1,7 @@
-# Introduction {#intro}
+# 安裝 R、RStudio 及 github 設定 {#intro}
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+就一般的套件安裝, 沒有特別需要注意的地方 
 
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
-
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
-```
-
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
-
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
-
-You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+在 github.com 上新增一的 repo, repo 名稱必須是 marconijiang.github.io
+不想破壞原有的 marconi1964.github.io 的設計, 重新申請 github 帳號, 並且新增一個  repo 叫做 marconijiang.github.io, 網頁位址為 https://marconijiang.github.io 
+- (這是 github 的標準設定, 只要設定 username.github.io 這個 repo, github 會自動設定 https://username.github.io/ 這網頁導向這個 repo) 

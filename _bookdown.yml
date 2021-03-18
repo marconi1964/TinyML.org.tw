@@ -1,5 +1,5 @@
 book_filename: "marconi1964.github.io"
-output_dir: "../marconi1964.github.io/TensorFlowLiteMicro"
+output_dir: "../marconi1964.github.io/about_bookdown"
 delete_merged_file: true
 language:
   ui:

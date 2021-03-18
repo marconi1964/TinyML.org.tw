@@ -1,3 +1,14 @@
 `r if (knitr::is_html_output()) '
 # References {-}
 '`
+
+參考資料
+1. https://alison.rbind.io/post/new-year-new-blogdown/
+2. https://bookdown.org/yihui/blogdown/installation.html  
+Lithium 相關主題
+3. [Yihui Hugo Lithium ](https://github.com/yihui/hugo-lithium)   
+4. [Jrutheiser Hugo Lithium](https://github.com/jrutheiser/hugo-lithium-theme)    ## 應該是 Lithium 原始出處
+5. [janikvonrotz Hugo Lithium](https://github.com/janikvonrotz/hugo-lithium-theme)
+6. [Hugo Lithium 官網](https://themes.gohugo.io/hugo-lithium-theme/)
+Hugodown 相關網頁
+7. [r-lib/hugodown github 官網](https://github.com/r-lib/hugodown)
