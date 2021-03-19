@@ -1,8 +1,8 @@
-# 4. 重新安裝 bookdown
+# 重新安裝 bookdown
 此章節主要參考 Ref 7. [rib-hugodown github 網頁](https://github.com/r-lib/hugodown)
 
 
-4.1 安裝 bookdown 套件
+## 安裝 bookdown 套件
 ```
 > install.packages("devtools")
 ## devtools::install_github('rstudio/bookdown')
@@ -12,12 +12,12 @@
 > hugodown::hugo_install('0.66.0')
 ```
 
-4.2 在 RStudio 建立新專案
+## 在 RStudio 建立新專案
 
 進入 RStudio  -> New Project -> New Directory -> New Project -> "Directory name" -> "Create Project"
 
 
-4.3 創建  hugo 的 academic 模板網站 
+## 創建  hugo 的 academic 模板網站 
 
 創建 hugo 的 academic 模板網站
 ```

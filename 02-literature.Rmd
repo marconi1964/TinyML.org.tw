@@ -2,7 +2,7 @@
 
 主要是根據  [Alison Hill 關於 blogdown 的 2021 更新](https://alison.rbind.io/post/new-year-new-blogdown/) *1, (除非有其他的參考文章會特別標出)
 
-#### 2.1 R Markdown 的基本指令 *2
+## R Markdown 的基本指令 *2
 
 ```
 ## 參考用, 待會兒執行時, 會有詳細指令說明
@@ -22,7 +22,7 @@
 > blogdown::serve_site()
 ```
 
-#### 2.2 Create project (Ref 1. Step 2 Create project)
+## Create project (Ref 1. Step 2 Create project)
 - RStudio 選擇  File > New Project > Version Control > Git
 - 複製 github 的 url, 我的例子是 https://github.com/MarconiJiang/marconijiang.github.io.git
 - Create Project  
@@ -30,8 +30,8 @@
 這時候, RStudio 會開個全新的畫面, 下載 marconijiang.github.io 的內容, 同時 file 目錄指向筆電 local repo 的目錄
 
 
-#### 2.3 Create site (Ref 1. Step 3 Create site)
-2.3.1 安裝 blogdown
+## Create site (Ref 1. Step 3 Create site)
+### 安裝 blogdown
 
 ```
 ## 到 RStudio 的 console 下, 執行以下指令
@@ -42,7 +42,7 @@
 ##  * DONE (blogdown)
 ```
 
-2.3.2 在 RStudio / blogdown 下創建新的網站    
+### 在 RStudio / blogdown 下創建新的網站    
 執行以下指令
 
 ```

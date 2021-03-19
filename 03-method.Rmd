@@ -1,7 +1,7 @@
-# 3 將 RMarkdown blogdown 內容 deploy 到 Netlify
+# 將 RMarkdown blogdown 內容 deploy 到 Netlify
 參考 [Ref. 1 Using github  章節](https://alison.rbind.io/post/new-year-new-blogdown/#using-github)
 
-3.1 設定 .gitignore : 雖然不知道這時候設定 .gitignore 的必要性, 還是照著說明做
+## 設定 .gitignore : 雖然不知道這時候設定 .gitignore 的必要性, 還是照著說明做
 ```
 file.edit(".gitignore")
 ```
@@ -18,7 +18,7 @@ RStudio 會將 cursor 移到左上角的檔案內容檢視視窗, 在該視窗�
 Thumbs.db
 ```
 
-3.2 blogdown  檢查 check_gitignore()  
+## blogdown  檢查 check_gitignore()  
 執行第一次 commit 之前, 先用 blogdown 檢查 
 
 ```
@@ -42,7 +42,7 @@ Thumbs.db
 ― Check complete: .gitignore
 ```
 
-3.3 blogdown 檢查  check_content()    
+## blogdown 檢查  check_content()    
 
 還不清楚這動作的意義, 待確認
 ```
@@ -69,7 +69,7 @@ Thumbs.db
 
 ```
 
-3.4 在 Netlify 網站上建置並且 Publish site    
+## 在 Netlify 網站上建置並且 Publish site    
 
 參考 [Ref 1. Publish site  章節](https://alison.rbind.io/post/new-year-new-blogdown/#step-5-publish-site)
 
@@ -81,7 +81,7 @@ Thumbs.db
 5. 可以另開一個 browser 頁面, 輸入網址 marconijiang.netlify.app, 就可以看到自己的 github 上的內容 (這時候的內容是 github 網站的內容, 如果還沒跟電腦上的同步, 內容可能是空的)
 
 
-3.5 git 指令將電腦的內容更新於 github
+## git 指令將電腦的內容更新於 github
 移到 RStudio 左下角的 terminal (console 右邊), 透過一般的 git  指令去更新  github 上的內容 
 
 ```

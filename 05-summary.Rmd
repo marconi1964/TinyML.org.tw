@@ -1,6 +1,6 @@
-# 5 成功安裝 bookdown, 且順利 deploy 到 github.io
+# 成功安裝 bookdown, 且順利 deploy 到 github.io
 
-5.0 安裝套件
+## 安裝套件
 
 我只是安裝了 blogdown 套件, 就自動安裝了 bookdown 套件（應該是如此）
 
@@ -9,10 +9,10 @@
 > remotes::install_github("rstudio/blogdown")
 ```
 
-5.1 產生 bookdown 範例檔案  
+## 產生 bookdown 範例檔案  
 到 RStudio -> File -> New project -> New directory  -> 向下找到  "Book project using bookdown" -> Directory 的名字為 marconijiang.github.io  即可產生帶有範例的 bookdown 程式在 marconijiang.github.io 目錄下. 
 
-5.2 Deploy 到 github.io  
+## Deploy 到 github.io  
 到 RStudio 右上方, Environment 同一頁面的 Build, 選擇 Build Book 下的 bookdown::gitbook, RStudio 就開始將內容轉至 html, 儲存於  _book 子目錄下, 這時候到 https://marconijiang.github.io/_book/index.html  會出現 404 not found
 
-5.3 新增沒有內容的檔案, 名字為 .nojekyll 的檔案到 _book 目錄下,  詳細內容參考 [github 404 not found due to missing .nojekyll](https://stackoverflow.com/questions/11577147/how-to-fix-http-404-on-github-pages) 就可以成功看到 https://marconijiang.github.io/_book/index.html 的內容
+## 新增沒有內容的檔案, 名字為 .nojekyll 的檔案到 _book 目錄下,  詳細內容參考 [github 404 not found due to missing .nojekyll](https://stackoverflow.com/questions/11577147/how-to-fix-http-404-on-github-pages) 就可以成功看到 https://marconijiang.github.io/_book/index.html 的內容
