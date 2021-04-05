@@ -1,15 +1,23 @@
-Template : TinyML (category) - (subject)  
+## Template {#template}  
+
+檔案用以下 2 行做開頭, 可能是 ### (硬體相關) 或 ## (其它類別)
+```
+## TinyML (category) - (subject)
 date: "`r Sys.Date()`"
 
+```
 
-備註: 以檔案名稱及日期區分  
-200000-date_newer.Rmd 到 299999-date_older.Rmd : TinyML Tensorflow Lite Micro 相關, 日期從號碼大的 299999 開始往前推  
-300000-date2.Rmd 到 309999-date1.Rmd : TinyML 硬體相關  
-310000-date2.Rmd 到 319999-date1.Rmd : TinyML STM32 硬體相關  
-320000-date2.Rmd 到 329999-date1.Rmd : TinyML Arduino 硬體相關  
-330000-date2.Rmd 到 339999-date1.Rmd : TinyML Espressif 硬體相關  
-340000-date2.Rmd 到 389999-date1.Rmd : TinyML (待定義) 硬體相關  
-390000-date2.Rmd 到 399999-date1.Rmd : TinyML 其它硬體相關  
-400000-date2.Rmd 到 499999-date1.Rmd : TinyML 商業新聞  
-500000-date2.Rmd 到 599999-date1.Rmd : TinyML 技術相關新聞  
-600000-date2.Rmd 到 699999-date1.Rmd : TinyML 活動訊息  
+新建文章需另建一個新 .Rmd 檔案, 新建檔案名稱規則說明如下  
+
+|檔案名(起)||檔案名(訖)|類別 category|說明|
+|:---|:---|:---|:---|:---|
+|200000-date_newer.Rmd||299999-date_older.Rmd|TinyML Tensorflow Lite Micro 相關| 新推文從號碼大的 299999 遞減的檔案名編起|
+|300000-date2.Rmd||309999-date1.Rmd|TinyML 硬體相關||
+||310000-date2.Rmd |319999-date1.Rmd |TinyML STM32 硬體相關||  
+||320000-date2.Rmd |329999-date1.Rmd |TinyML Arduino 硬體相關||  
+||330000-date2.Rmd |339999-date1.Rmd |TinyML Espressif 硬體相關||  
+||340000-date2.Rmd |389999-date1.Rmd |TinyML (待定義) 硬體相關||  
+||390000-date2.Rmd |399999-date1.Rmd |TinyML 其它硬體相關 || 
+|400000-date2.Rmd ||499999-date1.Rmd |TinyML 商業新聞||  
+|500000-date2.Rmd ||599999-date1.Rmd |TinyML 技術相關新聞||  
+|600000-date2.Rmd ||699999-date1.Rmd |TinyML 活動訊息||  
