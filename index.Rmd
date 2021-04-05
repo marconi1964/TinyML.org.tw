@@ -12,7 +12,6 @@ description: "Everthing about TinyML"
 
 # 索引
 
-<<<<<<< HEAD
 <span style="color:blue;font_size:1.5em">[TinyML TensorFlow Lite Micro 軟體](#tflm)</style><br>
 <span style="color:blue;font_size:1.5em">[TinyML 支援硬體](#hardware)</style>  
 
