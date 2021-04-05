@@ -1,6 +1,6 @@
-book_filename: "marconi1964.github.io"
-output_dir: "../marconi1964.github.io/about_bookdown"
+book_filename: "TinyML TensorFlow Lit Micro"
+output_dir: "../marconi1964.github.io/TinyML.org.tw"
 delete_merged_file: true
 language:
   ui:
-    chapter_name: "Chapter "
+    chapter_name: ""

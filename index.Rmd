@@ -1,38 +1,16 @@
 --- 
-title: "關於 Rmarkdown / bookdown / blogdown / Hugodown"
-author: "Marconi Jiang"
+title: "Everything about TinyML"
+author: "Marconi Jiang at TinyML.org.tw (to be created)"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-description: "關於 Rmarkdown / bookdown / blogdown / Hugodown 的經驗談"
+description: "Everthing about TinyML"
 ---
 
-# 前言
+# 索引
 
-**Using R Markdown to build github.io static web pages**
-
-  無意間發現 merely-useful.github.io 網頁完美結合 github 及 github.io, 集合眾人之力, 內文集程式更新於 github, 並且以書籍形式發表於 github.io, 詢問作者 後, 得知是運用 R Markdown 的作品. 本以為是個簡單的 deployment, 實際執行後, 還是有不小的 efforts, 而且 google 到相關的文章不是太多, 只好自己努力.
-
-**書中部分內容是作者的 try-and-error 實驗, 讀者可以直接略過這些經驗, 跳到第 5 章的成果**
-
-相關連結  
-
-* Merely-useful 網站  
-  + [github.com/merely-useful](https://github.com/merely-useful/merely-useful.github.io)   
-  + [merely-useful.github.io](https://merely-useful.github.io)  我喜歡  hyperlink 的設計 (本以為是 CSS 的能力, 發現是這網頁使用的是 [Hugo 的 Lithium theme](https://themes.gohugo.io/hugo-lithium-theme/) )  
-
-
-* RMarkdown 的網站有兩個:  <span style="color:red">bookdown</span> 跟 <span style="color:red">blogdown</span>, blogdown  似乎是比較舊, 但是含有安裝 Hugo 的說明, bookdown 比較新, 卻沒有 Hugo 的安裝說明  
-  + [bookdown: Authoring Books and Technical Documents with R Markdown](https://bookdown.org/yihui/bookdown/get-started.html)  
-  + [blogdown: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown/get-started.html)  
-  
-
-* 勉強找到幾篇入門的教學文章, 試試看是否可行  
-  + 這篇文章幫我完成了用 bookdown 編輯 .md 的文章格式, 然後可以快速 deploy 到 github.io 的理想, 請看 23 章 [R 語言教學](https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/bookdown.html)  
-  + 這篇應該是完整且最新的詳細說明  [Getting any website up and running with all the moving parts (RStudio, GitHub, Hugo, Netlify)](https://alison.rbind.io/post/new-year-new-blogdown/)  (完成後發現, 她是以 blogdown 的格式, 也就是適合 blog 的文章, 跟我希望用的 bookdown 是完全不同的, 是否可以直接套用在 bookdown, 還需要再確定)    
-  + [How to publish bookdown projects with GitHub Actions on GitHub Pages](https://medium.com/@delucmat/how-to-publish-bookdown-projects-with-github-actions-on-github-pages-6e6aecc7331e)   
-  + 運用 Netlify 工具 deploy [A Blogdown New Post Workflow with Github and Netlify](https://www.garrickadenbuie.com/blog/blogdown-netlify-new-post-workflow/)  
-  + 運用 Travis 工具 deploy  到 github [Blogdown - Travis + GitHub](https://bookdown.org/yihui/blogdown/travis-github.html)  
+<span style="color:blue;font_size:1.4em">[TinyML TensorFlow Lite Micro](#tflm)</style>
+<span style="color:blue;font_size:1.4em">[TinyML 支援硬體](#hardware)</style>
