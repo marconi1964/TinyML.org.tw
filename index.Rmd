@@ -24,4 +24,4 @@ description: "Everthing about TinyML"
 <span style="color:blue;font_size:1.5em">[TinyML 技術相關新聞](#technicalnews)</style><br>
 <span style="color:blue;font_size:1.5em">[TinyML 相關活動](#event)</style><br>
 
-<span style="font_size:0.5em">新建文件請參看 Reference 後的 [template 附件](#template)</style>
+<span style="font_size:0.5em">新建文件請參看 Reference 參考文獻後的 [template 附件](#template)</style>
