@@ -1,9 +1,0 @@
-# 安裝 R、RStudio 及 github 設定 {#intro}
-
-**安裝 R、RStudio 套件**  
-就一般的套件安裝, 沒有特別需要注意的地方   
-
-**github 設定**  
-在 github.com 上新增一的 repo, repo 名稱必須是 marconijiang.github.io
-不想破壞原有的 marconi1964.github.io 的設計, 重新申請 github 帳號, 並且新增一個  repo 叫做 marconijiang.github.io, 網頁位址為 https://marconijiang.github.io 
-- (這是 github 的標準設定, 只要設定 username.github.io 這個 repo, github 會自動設定 https://username.github.io/ 這網頁導向這個 repo) 
