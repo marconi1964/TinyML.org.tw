@@ -12,8 +12,11 @@ description: "Everthing about TinyML"
 
 # 索引
 
-<span style="color:blue;font_size:1.4em">[TinyML TensorFlow Lite Micro](#tflm)</style>
-<span style="color:blue;font_size:1.4em">[TinyML 支援硬體](#hardware)</style>
+<span style="color:blue;font_size:1.5em">[TinyML TensorFlow Lite Micro](#tflm)</style><br>
+<span style="color:blue;font_size:1.5em">[TinyML 支援硬體](#hardware)</style><br>
+<span style="color:blue;font_size:1.5em">[TinyML 商業新聞](#commericalnews)</style><br>
+<span style="color:blue;font_size:1.5em">[TinyML 技術相關新聞](#technicalnews)</style><br>
+<span style="color:blue;font_size:1.5em">[TinyML 相關活動](#event)</style><br>
 
   
   
