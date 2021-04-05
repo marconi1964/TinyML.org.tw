@@ -1,4 +1,0 @@
-# TinyML TensorFlow Lite Micro{#tflm}
-
-**TinyML TensorFlow Lite Micro source code 說明與更新**  
-
