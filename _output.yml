@@ -5,7 +5,7 @@ bookdown::gitbook:
       before: |
         <li><a href="./">關於 Rmarkdown / bookdown / blogdown / Hugodown </a></li>
       after: |
-        <li><a href="https://github.com/marconi1964" target="blank">Published with bookdown</a></li>
+        <li><a href="https://github.com/marconi1964" target="blank">Marconi github</a></li>
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:

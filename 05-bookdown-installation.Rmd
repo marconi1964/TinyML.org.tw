@@ -1,0 +1,32 @@
+# 重新安裝 bookdown
+此章節主要參考 Ref 7. [rib-hugodown github 網頁](https://github.com/r-lib/hugodown)
+
+
+## 安裝 bookdown 套件
+```
+> install.packages("devtools")
+## devtools::install_github('rstudio/bookdown')
+> devtools::install_github("r-lib/hugodown")
+
+## 不知是否是版本問題, 還是改安裝了 0.66.0 版後才沒問題
+> hugodown::hugo_install('0.66.0')
+```
+
+## 在 RStudio 建立新專案
+
+進入 RStudio  -> New Project -> New Directory -> New Project -> "Directory name" -> "Create Project"
+
+
+## 創建  hugo 的 academic 模板網站 
+
+創建 hugo 的 academic 模板網站
+```
+> hugodown::create_site_academic()
+```
+
+開始 hugodown 網頁的 server
+
+```
+> hugodown::hugo_start()
+Starting server on port 1313
+```

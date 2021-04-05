@@ -1,4 +1,4 @@
-book_filename: "marconi1964.github.io"
+book_filename: "Bookdown101_by_marconi1964"
 output_dir: "../marconi1964.github.io/about_bookdown"
 delete_merged_file: true
 language:

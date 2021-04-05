@@ -1,0 +1,60 @@
+# 快速使用 Bookdown 的說明 {#chap-bookdown}
+需要回頭看第 §\@ref(chap-summary) 章的 bookdown 安裝, 再繼續往下看
+
+## 開始全新的 bookdown 檔案
+1. 我會 copy 這篇文章/目錄 (github.com/marconi1964/About_bookdown) 的全部內容到新建的目錄
+2. 打開 RStudio
+3. 到 RStudio 右下角的 file, 找到新建目錄
+4. 找到並點擊 marconi1964.github.Rproj, 此時 RStudio 會重新建立以這個目錄內容的新 project, 就可以開始了
+
+## 注意事項
+- 如果是 post 在 gibhub.io, 需要在 index.html 的同一個目錄下新增 .nkjekyll 這檔案, 這檔案不必有內容, 一般都是用 linux 的指令 touch 來創建該檔案
+
+```
+$ touch .nojekyll
+```
+
+## 檔案結構 {#chap-bookdown-outputdir}
+
+我在 github 設定的 檔案目錄結構如下
+
+```
+github.com/marconi1964
+|
+|-- About_bookdown         # 書的 Rmarkdown 內容儲存於 github 的第一層子目錄下
+    |-- _bookdown.yml      # 需要新增一行到此檔案, 將 html 輸出到 marconi1964.github.io 下一層的目錄, 這目錄名稱可以自訂, 此例子為 about_bookdown, 後續 bookdown 輸出後, 可以在 https://marconi1964.github.io/about_bookdown/index.html 看到此書的內容 
+         output_dir: "../marconi1964.github.io/about_bookdown"
+    |-- index.Rmd          # bookdown 會依照檔案名稱安排章節順序
+    |-- 01-intro.Rmd       # 順序依序為 : index.Rmd, 01-intro.Rmd, 02-xxx.Rmd
+    |-- 02-xxx.Rmd         # 數字後面的檔案名稱只是讓作者/讀者了解內容
+ 
+|-- JetsonNano_book        # 書的 Rmarkdown 內容儲存於 github 的第一層子目錄下
+    |-- _bookdown.yml      # 需要新增一行到此檔案, 將 html 輸出到 marconi1964.github.io 下一層的目錄, 這目錄名稱可以自訂, 此例子為 JetsonNano, 後續 bookdown 輸出後, 可以在 https://marconi1964.github.io/JetsonNano/index.html 看到此書的內容
+         output_dir: "../marconi1964.github.io/JetsonNano"
+    |-- ...
+    
+|-- marconi1964.github.io  # html 的內容儲存於此目錄下
+    |-- index.html         # 需自行手工創建, 建立 hyperlink 連接到不同的書內容
+    |-- about_bookdown     # 此目錄及內容由 bookdown 創建及產生, 可以在 https://marconi1964.github.io/about_bookdown/index.html 看到此書的內容
+        |-- .nojekyll      # 唯有這個檔案需要自行創建
+        |-- index.html
+        |-- ...
+    |-- JetsonNano         # 此目錄及內容由 bookdown 創建及產生, 可以在 https://marconi1964.github.io/JetsonNano/index.html 看到此書的內容
+        |-- .nojekyll      # 唯有這個檔案需要自行創建
+        |-- index.html   
+        |-- ...
+    |--
+
+```
+
+## Rmd 內容注意事項
+
+我目前的想法只是單純的使用 md 檔案格式, 而沒運用到 Rmd 的功能, 這樣, 就可以直接轉換到 python 常用的 md 格式
+
+其它待補充
+
+## 參考文件的參照
+待補充
+
+## 圖表的參照
+待補充
