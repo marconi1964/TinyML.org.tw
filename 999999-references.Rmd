@@ -2,6 +2,10 @@
 # References 參考文獻  {-}
 '`
 
+```{r, echo=FALSE}
+referencescounter <- 0
+```
+
 本文蒐集所有 TinyML 官網相關的訊息
 
 TinyML 出版書籍  
