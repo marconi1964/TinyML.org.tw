@@ -1,0 +1,1 @@
+## TinyML 支援的硬體-其它{#hardware-others}

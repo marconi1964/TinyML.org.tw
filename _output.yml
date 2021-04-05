@@ -5,7 +5,7 @@ bookdown::gitbook:
       before: |
         <li><a href="./">TinyML.org.tw</a></li>
       after: |
-        <li><a href="https://github.com/marconi1964/TinyML.org.tw" target="blank">TinyML.org.tw</a></li>
+        <li><a href="https://github.com/marconi1964/TinyML.org.tw" target="blank">TinyML.org.tw @github</a></li>
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:
